@@ -2,15 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'trebuchet ms', sans-serif;
     color: rgba(9, 22, 51, 0.955);
 }
-.heading{
+.heading{ 
     margin: 20px;
     margin-left: 5px;
 }
 .heading h1{
-    font-size: 40px;
+    font-size: 55px;
 }
 .heading img{
     width:75px;
@@ -26,7 +26,8 @@ h2,h3{
     margin-left: 2.5%;
 }
 body{
-    background-color: rgb(119, 137, 153);
+    background: rgb(108,120,177);
+background: radial-gradient(circle, rgba(108,120,177,1) 0%, rgba(119,137,153,1) 100%, rgba(94,98,208,1) 100%);
 }
 p{
     font-size: 19px;
@@ -58,9 +59,7 @@ p{
 }
 .homepage{
     background-color: rgb(185, 185, 210);
-    border: 8px solid rgb(0, 0, 0);
     height: 20vh;
-    border-bottom: none;
 }
 .wrapper{
     margin: 10px auto;
@@ -107,22 +106,18 @@ hr{
 }
 .hprojects{
     background-color: rgb(185, 185, 210);
-    border: 8px solid rgb(0, 0, 0);
-    height: 90vh;
+    min-height: 80vh;
     border-top: none;
-}
-.hprojects h2{
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
+}
+.hprojects p{
+    font-size: 18px;
 }
 .pprojects{
     background-color: rgb(185, 185, 210);
-    border: 8px solid rgb(0, 0, 0);
-    height: 190vh;
+    min-height: 190vh;
 }
 .solo{
     background-color: rgb(185, 185, 210);
-    border: 8px solid rgb(0, 0, 0);
     height: 90vh;
 }
