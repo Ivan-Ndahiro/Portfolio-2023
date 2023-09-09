@@ -5,12 +5,11 @@
     font-family: 'trebuchet ms', sans-serif;
     color: rgba(9, 22, 51, 0.955);
 }
-.heading{ 
-    margin: 20px;
-    margin-left: 5px;
-}
+header{
+    background: radial-gradient(circle, rgba(124,133,172,1) 0%, rgba(109,133,176,1) 46%, rgba(132,144,180,1) 100%)}
 .heading h1{
-    font-size: 55px;
+    margin-left: 5px;
+    font-size: 50px;
 }
 .heading img{
     width:75px;
@@ -26,8 +25,7 @@ h2,h3{
     margin-left: 2.5%;
 }
 body{
-    background: rgb(108,120,177);
-background: radial-gradient(circle, rgba(108,120,177,1) 0%, rgba(119,137,153,1) 100%, rgba(94,98,208,1) 100%);
+    background-color: rgb(185, 185, 210);
 }
 p{
     font-size: 19px;
@@ -38,28 +36,29 @@ p{
     background-color: rgb(10, 10, 58);
     overflow: hidden;
     text-align: center;
-    margin-top: 10px;
 }
 .topnav a{
-    font: 1em sans-serif;
+    font-family: 'trebuchet ms', sans-serif;
     font-weight: bold;
-    font-size: 28px;
-    float: left;
+    font-size: 32px;
+    float: none;
+    margin-left: 10%;
+    margin-right: 10%;
     color: white;
     text-align: center;
-    padding: 16px 18px;
+    padding: 30px;
     text-decoration: none;
 }
 .topnav a:hover{
     background-color: #d9dce0;
     color: black;
-    text-align: center;
-    padding: 16px 18px;
-    text-decoration: none;
 }
 .homepage{
     background-color: rgb(185, 185, 210);
     height: 20vh;
+}
+.tagline{
+    margin-top: 20px;
 }
 .wrapper{
     margin: 10px auto;
@@ -106,18 +105,48 @@ hr{
 }
 .hprojects{
     background-color: rgb(185, 185, 210);
-    min-height: 80vh;
-    border-top: none;
+    min-height: 120vh;
     text-align: center;
 }
 .hprojects p{
     font-size: 18px;
+    text-align: center;
+}
+.hprojects a{
+    text-decoration: none;
 }
 .pprojects{
     background-color: rgb(185, 185, 210);
-    min-height: 190vh;
+    min-height: 230vh;   
+}
+.pprojects h2{
+    font-size: 48px;
+}
+.pprojects h3{
+    font-size: 30px;
+}
+.pprojects a{
+    font-size: 25px;
+    text-decoration: none;
+}
+.pprojects a:hover{
+    background-color: rgb(193, 183, 237);
+    color: white;
 }
 .solo{
     background-color: rgb(185, 185, 210);
     height: 90vh;
+}
+.row{
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.col1,.col2,.col3{
+    left: 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 5px;
+    width: 25%;
 }
