@@ -68,7 +68,6 @@ a{
     margin-top: 20px;
 }
 .wrapper{
-    margin: 10px auto;
     width:95%;
     float: left;
 }
@@ -98,8 +97,8 @@ hr{
     border: 0;
     width: 50%;
     border-bottom: 5px solid rgb(65, 79, 125);
-    margin-top: 5%;
-    margin-bottom: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 1%;
     margin-left: 27%;
     margin-right: 25%;
 }
@@ -131,9 +130,6 @@ hr{
     font-size: 25px;
     text-align: center;
 }
-.pprojects{
-    min-height: 230vh;   
-}
 .pprojects h2{
     font-size: 48px;
 }
@@ -152,16 +148,19 @@ hr{
 }
 .row{
     box-sizing: border-box;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0%;
 }
-.col1,.col2,.col3{
+.col{
+    display: inline-block;
+    vertical-align: middle;
     overflow: hidden;
     background: rgb(193, 193, 220);
     border: 5px solid rgb(24, 39, 81);
-    top: 50%;
-    left: 50%;
-    border-radius: 10%;
-    margin-bottom: 10px;
-    display: inline-block;
-    padding: 5px;
-    width: 25%;
+    border-radius: 5%;
+    width: 300px;
+    margin-top: 1.5%;
+    margin-left: 2.5%;
+    padding-top: 1%;
 }
