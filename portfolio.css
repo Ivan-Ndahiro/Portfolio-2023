@@ -39,6 +39,10 @@ p{
 a{
     text-decoration: none;
 }
+li{
+    font-size: 25px;
+    margin-left: 2.5%;
+}
 .topnav{
     margin-top: 5px;
     display: block;
@@ -176,4 +180,9 @@ hr{
 }
 .col:hover img{
     opacity: 0.5;
+}
+.better img{
+    border-image: 2px black;
+    max-height: 600px;
+    overflow: hidden;
 }
