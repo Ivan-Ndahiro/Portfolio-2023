@@ -185,4 +185,6 @@ hr{
     border-image: 2px black;
     max-height: 600px;
     overflow: hidden;
+    margin-left: 25%;
+    margin-right: 25%;
 }
