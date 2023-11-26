@@ -181,30 +181,28 @@ hr{
 .col:hover img{
     opacity: 0.5;
 }
-.better img{
-    border-image: 2px black;
-    max-height: 600px;
-    overflow: hidden;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-.better{
+.redesign{
     width: 95%;
     float: left;
 }
-.better h3{
+.redesign img{
+    border-image: 2px black;
+    max-height: 600px;
+    overflow: hidden;
+    margin-left: 30%;
+}
+.redesign h3{
     font-size: 38px;
     margin-top: 10px;
     margin-bottom: 20px;
     margin-left: 10%;
 }
-.better li, .better p{
+.redesign li, .redesign p{
     font-size: 22px;
     margin-top: 14px;
     margin-bottom: 14px;
     margin-left: 10%;
 }
-.better a{
+.redesign a{
     font-weight: bold;
 }
