@@ -90,8 +90,8 @@ li{
 }
 .pfp{
     border: 10px solid rgb(7, 28, 96);
-    border-radius: 50%;
-    height: 280px;
+    border-radius: 20%;
+    height: 267px;
     width: 300px;
     float: right;
     margin-left: 25px;
