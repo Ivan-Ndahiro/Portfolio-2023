@@ -10,48 +10,89 @@
 </head>
 <body>
     <header>
-        <div class="heading">
-            <a href="index.html"><h1><img src="images/IN.png" alt="logo"> Ivan Ndahiro</h1></a>
-        </div>
-        <div class="topnav">
-            <a class="active" href="index.html">Home</a>
-            <a href="uiux/main.html">UI/UX</a>
-            <a href="webdev.html">Websites</a>
-            <a href="CV-D.pdf" target="_blank">CV</a>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top bg-light">
+            <a class="navbar-brand" href="index.html"><img src="images/name.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="uiux/main.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="CV.pdf" target="_blank">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:ivanndahiro02@gmail.com" target="_blank">Contact</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
     </header>
         <div class="wrapper">
-            <img class="pfp" src="images/profile.jpg" alt="Profile Picture">
-            <h2 class="headline">Hello, I'm Ivan!</h2>
-                <p>Hello, I'm a recent CS graduate excited to join a collaborative team where I can learn from experienced professionals, share my skills, and contribute to impactful projects in areas such as <b>UX and Web Design</b>.<br><br>
-                I bring a unique blend of creativity and technical ability, which enables me to approach challenges from a fresh perspective.
-                As a team player with strong communication skills, I thrive in environments where ideas are exchanged and effective solutions are found.
+            <div id="Introduction" class="box">
+                <img class="rounded-circle shadow-4-strong pfp" alt="Profile" src="images/profile.jpg" />
+                <h2 class="headline">Hello, I'm Ivan!</h2>
+                <p>Hello, I'm excited to join a collaborative team where I can learn from experienced professionals, share my skills, 
+                    and contribute to impactful projects in areas such as <b>UX and Web Design</b>. 
+                    I bring a unique blend of creativity and technical ability, which enables me to approach challenges from a fresh perspective.
                 </p>
-            <h2 class="headline">Projects</h2>
+            </div>
+            <div id="Projects" class="box">
+                <h2 class="headline">Projects</h2>
                 <p>Here are some of the personal projects I've worked on:</p>
-                <div class="row">
-                    <div class="col">
-                        <a href="uiux/betteruk.html"><img src="images/betteruk.png" alt="Better UK Mobile App"></a>
+                <div class="card-group text-center">
+                    <div class="card">
+                        <img class="card-img-top" href="uiux/betteruk.html" src="images/betteruk.png" alt="Better UK Mobile App">
+                        <div class="card-body">
+                        <h3 class="card-title">Better UK Redesign</h3>
+                        <p class="card-text">This is a breakdown of my redesign for Better UK's gym booking mobile application.</p>
+                        <a href="uiux/betteruk.html" class="btn btn-secondary">View</a>
+                        </div>
                     </div>
-                    <div class="col">
-                        <a href="uiux/uimockups.html"><img src="images/ui.png" alt="UI Design"></a>
+                    <div class="card">
+                        <img class="card-img-top" src="images/ui.png" alt="UI Design">
+                        <div class="card-body">
+                        <h3 class="card-title">UI Mockups</h3>
+                        <p class="card-text">These are some UI concepts I have made in my spare time.</p>
+                        <a href="uiux/uimockups.html" class="btn btn-secondary">View</a>
+                        </div>
                     </div>
-                    <div class="col">
-                        <a href="https://github.com/Ivan-Ndahiro" target="_blank"><img src="images/websites.png" alt="Websites"></a>
+                    <div class="card">
+                        <img class="card-img-top" src="images/websites.png" alt="Websites">
+                        <div class="card-body">
+                        <h3 class="card-title">Websites</h3>
+                        <p class="card-text">Take a look at my GitHub for various programming and website projects.</p>
+                        <a href="https://github.com/Ivan-Ndahiro" target="_blank" class="btn btn-secondary">View</a>
+                        </div>
                     </div>
-                </div>
-            <h2 class="headline">About</h2>
+                    <div class="card">
+                        <img class="card-img-top" src="images/keybinds.png" alt="Websites">
+                        <div class="card-body">
+                            <h3 class="card-title">Keybinds</h3>
+                            <p class="card-text">Keybinds is a personal blog created using WordPress. I write about UX in games, the latest releases, showcases and more.</p>
+                            <a href="https://keybinds.wordpress.com" target="_blank" class="btn btn-secondary">View</a>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            <!--<<div id="About">
+                <h2 class="headline">About</h2>
                 <p>I've been interested in Technology, Design, and the combination of the two ever since I was young.
-                    Subjects like ICT and DT led me to realize how interesting the topics were and studying CS has helped me fulfill and implement tasks given to me.
-                <br><br>
-                Modules such as HCI 1 & 2 have put me in a team environment with the collaboration and discussion of designs based on the brief showing me the importance of teamwork and communication skills.
-                <br><br>
-                I hope to join a career that will help me constantly improve on my creative skills and learn at a fast pace from professionals in their field, working hard to meet the user's needs.
+                <br>
+                My passions include..
                 </p>
-            <h2 class="headline">Contact</h2>
-                <p><b>Email: </b>IvanNdahiro02@gmail.com</p>
+            </div>-->
+            <div id="Contact" class="box">
+                <h2 class="headline">Contact</h2>
+                <p><b>Email: </b>ivanndahiro02@gmail.com</p>
+            </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

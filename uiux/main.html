@@ -6,36 +6,50 @@
     <title>Ivan Ndahiro | Portfolio</title>
     <link rel="stylesheet" href="../css/portfolio.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <script src="js/bootstrap.min.js"></script> 
-    <link rel="icon" href="images/IN.png">
+    <link rel="icon" href="../images/IN.png">
 </head>
 <body>
     <header>
-        <div class="heading">
-            <a href="../index.html"><h1><img src="../images/IN.png" alt="logo"> Ivan Ndahiro</h1></a>
-        </div>
-        <div class="topnav">
-            <a href="../index.html">Home</a>
-            <a class="active" href="../uiux/main.html">UI/UX</a>
-            <a href="../webdev.html">Websites</a>
-            <a href="../CV-D.pdf" target="_blank">CV</a>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top bg-light">
+            <a class="navbar-brand" href="../index.html"><img src="../images/name.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="../uiux/main.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../CV.pdf" target="_blank">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:ivanndahiro02@gmail.com" target="_blank">Contact</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <div class="wrapper">
-        <h2 class="headline">UI/UX</h2>
-        <div id="Better UK">
-            <h3>UX Redesign: Better UK</h3>
-            <p>Here's a breakdown on the redesign of Better UK's gym booking application.</p>
-            <div class="col">
-                <a href="betteruk.html"><img src="../images/betteruk.png" alt="Better UK Mobile App"></a>
+        <div id="UIUX">
+            <h2 class="headline">UI/UX</h2>
+            <div id="Better UK">
+                <h3>UX Redesign: Better UK</h3>
+                <p>Here's a breakdown on the redesign of Better UK's gym booking application.</p>
+                <div class="col">
+                    <a href="betteruk.html"><img src="../images/betteruk.png" alt="Better UK Mobile App"></a>
+                </div>
             </div>
-        </div>
-        <br>
-        <div id="Mockups">
-            <h3>UI Design Mockups</h3>
-            <p>These are some UI concepts I have made in my spare time.</p>
-            <div class="col">
-                <a href="uimockups.html"><img src="../images/ui.png" alt="UI Mockups"></a>
+            <br>
+            <div id="Mockups">
+                <h3>UI Design Mockups</h3>
+                <p>These are some UI concepts I have made in my spare time.</p>
+                <div class="col">
+                    <a href="uimockups.html"><img src="../images/ui.png" alt="UI Mockups"></a>
+                </div>
             </div>
         </div>
     </div>

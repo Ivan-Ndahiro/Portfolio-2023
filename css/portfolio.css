@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'trebuchet ms', sans-serif;
+    font-family: "Segoe UI";
     color: rgba(9, 22, 51, 0.955);
 }
 
@@ -11,6 +11,9 @@
 /*HEADINGS*/
 header{
     background: rgb(155, 164, 204);
+}
+.project-header{
+    font-weight: bold;
 }
 .heading h1{
     font-size: 50px;
@@ -33,6 +36,7 @@ header{
 .headline{
     margin-bottom: 2.5%;
     font-weight: bold;
+    color:#1B59B7;
 }
 h1, h2, h3, p{
     margin-left: 2.5%;
@@ -40,7 +44,21 @@ h1, h2, h3, p{
 a {
     color: white;
 }
-
+.navbar-brand{
+    margin-left: 5%;
+}
+.nav-item, .active{
+    color:#1B59B7; 
+}
+.navbar-nav{
+    margin-right: 5%;
+    word-spacing: 20%;
+}
+#navbarNav{
+    font-size: 23px;
+    text-align: right;
+    font-weight: bold;
+}
 
 /*NAVIGATION BAR*/
 .topnav{
@@ -93,18 +111,23 @@ a {
 .wrapper button{
     text-align: left;
 }
-
+.card-group{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.box{
+    padding: 3%;
+}
+#UIUX{
+    padding-top: 2%;
+    padding-left: 2.5%;
+}
 
 /*IMAGES*/
 .pfp{
-    border: 10px solid rgb(7, 28, 96);
-    border-radius: 20%;
-    height: 267px;
-    width: 300px;
     float: right;
-    margin-left: 25px;
-    margin-top: 5px;
-    box-shadow: 4px 4px rgb(116, 116, 116);
+    margin-left: 6%;
+    margin-right: 2.5%;
 }
 .row {
     display: flex;
@@ -119,8 +142,6 @@ a {
     margin-left: 2.5%;
     opacity: 1;
     transition: .5s ease;
-    backface-visibility: hidden;
-    position: relative;
 }
 .col:hover img{
     opacity: 0.75;
