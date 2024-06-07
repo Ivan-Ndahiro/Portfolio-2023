@@ -55,6 +55,7 @@ a {
     word-spacing: 20%;
 }
 #navbarNav{
+    background-color: transparent;
     padding: 5px;
     font-size: 23px;
     text-align: right;
@@ -88,9 +89,6 @@ a {
 .wrapper button{
     text-align: left;
 }
-.in-button{
-    background-color: #1B59B7;
-}
 .card-group{
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -112,22 +110,17 @@ a {
     margin-left: 6%;
     margin-right: 2.5%;
 }
-.row {
-    display: flex;
-    text-align: center;
-}  
-.col {
-    flex: 33.33%;
-    padding: 5px;
-}
-.col img{
+.project-item img{
     width: 350px;
     margin-left: 2.5%;
     opacity: 1;
     transition: .5s ease;
 }
-.col:hover img{
+.project-item:hover img{
     opacity: 0.75;
+}
+.bigimg{
+    transform: scale(1.5,1.5);  
 }
 
 
@@ -197,4 +190,41 @@ a {
     padding-top: 15%;
     padding-left: 2.5%;
 }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #UIUX{
+        padding-top: 15%;
+        padding-left: 2.5%;
+    }
+    .wrapper h2{
+        font-size: 48px;
+    }
+    .wrapper h3{
+        font-size: 26px;
+    }
+    .wrapper p, .project li{
+        font-size: 20px;
+    }
+    .wrapper a{
+        font-size: 24px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .wrapper h2{
+        font-size: 48px;
+    }
+    .wrapper h3{
+        font-size: 26px;
+    }
+    .wrapper p, .project li{
+        font-size: 20px;
+    }
+    .wrapper a{
+        font-size: 24px;
+    }
+    #UIUX{
+        padding-top: 10%;
+        padding-left: 2.5%;
+    }
 }
