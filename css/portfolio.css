@@ -106,7 +106,6 @@ a {
     padding: 2%;
 }
 #UIUX{
-    padding-top: 5%;
     padding-left: 2.5%;
 }
 
@@ -115,6 +114,9 @@ a {
     float: right;
     margin-left: 6%;
     margin-right: 2.5%;
+}
+.image{
+    width: auto;
 }
 #logo{
     width: 225px;
