@@ -7,7 +7,6 @@
     color: rgba(9, 22, 51, 0.955);
 }
 
-
 /*HEADINGS*/
 .project-header{
     font-weight: bold;
@@ -61,13 +60,17 @@ a {
     text-align: right;
     font-weight: bold;
 }
+#email{
+    padding-inline: 1rem;
+}
 
 
 /*WRAPPER*/
 .wrapper{
     width: 95%;
-    float: left;
+    float: center;
     margin-left: 2.5%;
+    word-break: keep-all;
 }
 .wrapper h2{
     font-size: 48px;
@@ -86,6 +89,9 @@ a {
     text-decoration: none;
     font-weight: bold;
 }
+.wrapper img{
+    margin-left: 2.5%;
+}
 .wrapper button{
     text-align: left;
 }
@@ -97,7 +103,7 @@ a {
     font-size: 24px;
 }
 .box{
-    padding: 3%;
+    padding: 2%;
 }
 #UIUX{
     padding-top: 5%;
@@ -110,20 +116,21 @@ a {
     margin-left: 6%;
     margin-right: 2.5%;
 }
-.project-item img{
-    width: 350px;
-    margin-left: 2.5%;
-    opacity: 1;
-    transition: .5s ease;
+#logo{
+    width: 225px;
+    height: 31px;
 }
-.project-item:hover img{
-    opacity: 0.75;
-}
-.bigimg{
-    transform: scale(1.5,1.5);  
+#switch{
+    width: 1042px;
+    height: 750px;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
-
+/*Project*/
 .project{
     margin-left: 20%;
     margin-right: 20%;
@@ -150,46 +157,50 @@ a {
 }
 
 @media (max-width: 575.98px) {
-.wrapper h2{
-    font-size: 48px;
-}
-.wrapper h3{
-    font-size: 26px;
-}
-.wrapper p, .project li{
-    font-size: 20px;
-}
-.wrapper a{
-    font-size: 24px;
-}
-.pfp{
-    float: inline-end;
-    padding: 4%;
-    scale: 0.7;
-}
-.project{
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 15%;
-    text-align: left;
-}
-.project h2{
-    font-size: 40px;
-}
-.project img{
-    overflow: hidden;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 14px;
-}
-.card{
-    scale: 0.9;
-}
-#UIUX{
-    padding-top: 15%;
-    padding-left: 2.5%;
-}
+    #UIUX{
+        padding-top: 15%;
+        padding-left: 2.5%;
+    }
+    .wrapper h2{
+        font-size: 48px;
+    }
+    .wrapper h3{
+        font-size: 26px;
+    }
+    .wrapper p, .project li{
+        font-size: 20px;
+    }
+    .wrapper a{
+        font-size: 24px;
+    }
+    .pfp{
+        float: inline-end;
+        padding: 4%;
+        scale: 0.7;
+    }
+    .project{
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 15%;
+        text-align: left;
+    }
+    .project h2{
+        font-size: 40px;
+    }
+    .project img{
+        overflow: hidden;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 14px;
+    }
+    .card{
+        scale: 0.9;
+    }
+    #UIUX{
+        padding-top: 15%;
+        padding-left: 2.5%;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -227,4 +238,19 @@ a {
         padding-top: 10%;
         padding-left: 2.5%;
     }
+}
+@media (min-width: 1291.98px){
+    .wrapper{
+        margin: auto;
+        width: 80%;
+    }
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.img-container{
+    padding: 0.5rem;
 }
