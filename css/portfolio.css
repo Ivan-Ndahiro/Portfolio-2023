@@ -125,8 +125,8 @@ a {
     height: auto;
 }
 #logo{
-    width: 225px;
-    height: 31px;
+    width: auto;
+    height: 40px;
 }
 .img-container{
     padding: 1%
