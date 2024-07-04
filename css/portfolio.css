@@ -120,9 +120,9 @@ a {
     margin-right: 2.5%;
 }
 .image{
-    display: block;
+    display: inline-block;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 #logo{
     width: auto;
@@ -159,10 +159,6 @@ a {
 }
 
 @media (max-width: 575.98px) {
-    #UIUX{
-        padding-top: 15%;
-        padding-left: 2.5%;
-    }
     .wrapper h2{
         font-size: 48px;
     }
@@ -199,17 +195,9 @@ a {
     .card{
         scale: 0.9;
     }
-    #UIUX{
-        padding-top: 15%;
-        padding-left: 2.5%;
-    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-    #UIUX{
-        padding-top: 15%;
-        padding-left: 2.5%;
-    }
     .wrapper h2{
         font-size: 48px;
     }
