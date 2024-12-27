@@ -54,7 +54,11 @@ a {
 }
 .navbar-nav{
     margin-right: 5%;
-    word-spacing: 20%;
+    word-spacing: 25%;
+}
+.navbar-nav a{
+    font-weight: bold;
+    color: rgb(0, 4, 61);
 }
 #subNavbar{
     background-color: transparent;
@@ -62,6 +66,14 @@ a {
     font-size: 23px;
     text-align: right;
 }
+#bottomNavbar{
+    padding: 15px;
+    font-size: 20px;
+}
+#bottomNavbar p {
+    text-align: center;
+}
+
 
 /*WRAPPER*/
 .wrapper{
