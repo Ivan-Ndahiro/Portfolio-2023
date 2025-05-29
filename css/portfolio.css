@@ -171,6 +171,10 @@ a {
     font-size: 28px;
 }
 
+#button{
+    text-align: center;
+}
+
 @media (max-width: 575.98px) {
     .wrapper h2{
         font-size: 48px;
